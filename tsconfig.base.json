@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "target": "es2020",
+      "module": "nodenext",
+      "lib": ["es2020", "dom", "dom.iterable"],
+      "declaration": false,
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "moduleResolution": "nodenext",
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "useDefineForClassFields": false,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true
+    },
+    "include": ["src/**/*.ts", "test/**/*.ts"]
+  }
+  
